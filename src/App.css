@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.input-div {
+  display: grid;
+	place-items: center
+}
+.button-div {
+  display: grid;
+	place-items: center;
+  margin-top: 25px;
+}
+.button{
+  display: block;
+  margin: 40px 0;
+  width: 240px;
+  height: 60px;
+  border: none;
+  background-color: #00c2cb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+.button:hover {
+  background-color: #04848a;
+}
+.input{
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size:16px;
+  margin-bottom: 4px;
+}
+
+.background{
+	padding-top: 100px;
+}
+
+.label{
+  margin-bottom: 4px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
